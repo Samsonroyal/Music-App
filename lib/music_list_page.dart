@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MuscListPage extends StatefulWidget {
-  const MuscListPage({super.key});
+class MusicListPage extends StatefulWidget {
+  const MusicListPage({super.key});
 
   @override
-  State<MuscListPage> createState() => _MuscListPageState();
+  State<MusicListPage> createState() => _MusicListPageState();
 }
 
-class _MuscListPageState extends State<MuscListPage> {
+class _MusicListPageState extends State<MusicListPage> {
   List<Map<String, dynamic>> feedItems = [
     {
       "name": "Sweater Weather",
