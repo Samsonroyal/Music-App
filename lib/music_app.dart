@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_list/music_list_page.dart';
+import 'package:music_list/music_home_page.dart';
 
 class MusicApp extends StatelessWidget {
   const MusicApp({super.key});
@@ -15,6 +15,7 @@ class MusicApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MusicListPage(),
+      home: const MusicHomePage(),
     );
   }
 }
